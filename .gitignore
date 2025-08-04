@@ -1,0 +1,48 @@
+# Python
+*/__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.egg-info/
+*.sqlite3
+.env
+.venv/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / PyCharm / MacOS system files
+.vscode/
+.idea/
+.DS_Store
+
+# MLflow
+mlruns/
+
+# DVC
+*.dvc
+.cache/
+.dvc/tmp/
+.dvc/cache/
+.dvc/config.local
+
+# FastAPI/Flask
+logs/
+*.db
+
+# Docker
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+# Git LFS tracked files
+*.zip
+*.tar.gz
+
+# GitHub Actions temp
+.github/workflows/*.tmp
+
+# System backups
+*.bak
+*.swp
